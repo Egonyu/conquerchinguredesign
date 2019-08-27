@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+.nav-sec{
+    position: fixed;
+}
+nav.nav-bar{
+    min-height: 50px;
+    width: 100%;
+    background-color: #383E4C;
+    position: absolute;
+}
+.nav-bar-list li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    float: left;
+}
+.nav-bar-list li>a{
+    border: 1px solid #646d7c;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a{
+    color: #337ab7;
+}
+
+section.sec-2{
+    height: 100%;
+    padding-top: 70px;
+}
+
+.features{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feature-list{
+    text-align: center;
+    float: left;
+}
+.feature-items{
+    width: 25.33333%;
+    padding: 15px;
+    margin-right: 20px;
+    float: left;
+}
+
+.feature-content{
+    background: #f2f2f2;
+    padding-bottom: 40px;
+}
+
+.parallax{
+    background: url("https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") repeat fixed 100%;
+}
+
+.parallax-inner{
+    padding-top: 18%;
+    padding-bottom: 18%;
+}
